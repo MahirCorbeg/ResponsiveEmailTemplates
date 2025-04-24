@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Email Design</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    section {
+      scroll-margin-top: 100px;
+    }
+    body {
+      background-color: #121212;
+      color: #d0d0d0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #1a1a1a;
+    }
+    .navbar-brand span {
+      color: #ffc107;
+    }
+    .hero {
+      background: linear-gradient(to right, #0d1b2a, #1b263b);
+      color: #fff;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: #ffc107;
+    }
+    .features {
+      background-color: #1f2a40;
+    }
+    .features .bi {
+      font-size: 2rem;
+      color: #90caf9;
+      margin-bottom: 15px;
+    }
+    .demo {
+      background-color: #2b3a55;
+    }
+    .demo p {
+      color: #e0e0e0;
+    }
+    .scroll-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+    .testimonial {
+      background-color: #1f1f1f;
+    }
+    .testimonial blockquote {
+      color: #ccc;
+    }
+    .contact {
+      background-color: #1a2639;
+      color: #e0e0e0;
+    }
+    .contact a {
+      color: #90caf9;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"><span>EmailDesign</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#demo">Demo</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+  <div class="container">
+    <h1>Mobile-Friendly Email Templates</h1>
+    <p class="lead">Custom designed and fully responsive emails that look perfect on any device.</p>
+    <a href="#contact" class="btn btn-warning btn-lg mt-3">Order Your Template</a>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="features py-5 text-light" id="features">
+  <div class="container">
+    <h2 class="text-center mb-4 text-warning">Why Choose My Designs?</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <i class="bi bi-phone"></i>
+        <h5>Fully Responsive</h5>
+        <p>Optimized for mobile, tablet and desktop devices using clean HTML & inline CSS.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-code-slash"></i>
+        <h5>Hand-coded</h5>
+        <p>No messy builders – just clean, professional HTML and CSS you can trust.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="bi bi-envelope-check"></i>
+        <h5>Email Client Tested</h5>
+        <p>Tested on Gmail, Outlook, Yahoo, Apple Mail and more for full compatibility.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Demo Replacement Section -->
+<section class="demo py-5" id="demo">
+  <div class="container text-center">
+    <h2 class="mb-4 text-warning">What You Get</h2>
+    <p class="lead">Each template is built with:</p>
+    <ul class="list-unstyled">
+      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Clean code optimized for major email clients</li>
+      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Modern layout with visual balance</li>
+      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Responsive structure that scales beautifully</li>
+      <li><i class="bi bi-check-circle-fill text-success me-2"></i>Quick delivery and revisions as needed</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonial py-5">
+  <div class="container">
+    <h2 class="text-center mb-4 text-warning">What Clients Say</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <blockquote>
+          <p>"Fast turnaround and perfect rendering in Gmail and Outlook."</p>
+          <footer class="blockquote-footer text-muted">Digital Agency</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-4">
+        <blockquote>
+          <p>"Exactly what I needed. The email looks amazing on mobile!"</p>
+          <footer class="blockquote-footer text-muted">E-commerce Brand</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-4">
+        <blockquote>
+          <p>"Very responsive and easy to work with. Highly recommend."</p>
+          <footer class="blockquote-footer text-muted">Startup Owner</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact py-5" id="contact">
+  <div class="container text-center">
+    <h2 class="mb-4 text-info"><i class="bi bi-send-check-fill me-2"></i>Let's Connect</h2>
+    <p class="lead">Need help with email design? Let’s keep it simple, clean and effective.</p>
+    <p><i class="bi bi-envelope me-2 text-info"></i><a href="mailto:mahir.webdev@gmail.com">mahir.webdev@gmail.com</a></p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-light text-center py-3">
+  <p class="mb-0">© 2025 ResponsiveEmailDesign. All rights reserved.</p>
+</footer>
+
+<!-- Scroll to Top -->
+<a href="#hero" class="btn btn-primary scroll-top"><i class="bi bi-arrow-up"></i></a>
+
+<!-- Bootstrap JS + Scroll Fix -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const OFFSET_Y = 100;
+  function scrollToTargetWithOffset(targetSelector) {
+    const element = document.querySelector(targetSelector);
+    if (!element) return;
+    const y = element.getBoundingClientRect().top + window.pageYOffset - OFFSET_Y;
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  }
+  document.querySelectorAll('.nav-link[href^="#"]').forEach(link => {
+    link.addEventListener('click', function (e) {
+      const target = this.getAttribute('href');
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      const navbarToggler = document.querySelector('.navbar-toggler');
+      if (navbarCollapse.classList.contains('show')) {
+        navbarToggler.click();
+      }
+      setTimeout(() => scrollToTargetWithOffset(target), 300);
+      e.preventDefault();
+    });
+  });
+</script>
+</body>
+</html>
