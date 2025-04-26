@@ -4,7 +4,7 @@ A modern and colorful landing page showcasing mobile-friendly responsive email d
 
 ## Demo Link
 
-[Click here to view the live site](https://mahircorbeg.github.io/ResponsiveEmail/)
+[Click here to view the live site](https://mahircorbeg.github.io/ResponsiveEmailTemplates/)
 
 ## Technologies Used
 
